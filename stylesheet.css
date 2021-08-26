@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color:hsl(192, 100%, 9%);
+    font-size: 15px;
+}
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+button{
+    font-size: 15px;
+}
+button:focus{
+    outline: none;
+}
+
+/*heading*/
+
+header>.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 120px 0;
+}
+header img{
+    width: 110px;
+    padding-top: 10px;
+}
+header .left{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Poppins', sans-serif;
+    margin-left: 10px;
+}
+header .right{
+    margin-right: 10px;
+}
+header button{
+    padding: 4px 13px;
+    border-radius: 30px;
+    border: 1px solid hsl(322, 100%, 66%);
+    color:hsl(322, 100%, 66%);
+    background-color: white;
+    box-shadow: 0 0 3px hsl(322, 100%, 66%);
+}
+header button:hover{
+    color: hsl(321, 100%, 78%);
+    border: 1px solid  hsl(321, 100%, 78%);
+}
+/*section part-1*/
+.part-1 .container{
+    padding: 10px;
+}
+.part-1 h2{
+    text-align: center;
+    color:hsl(192, 100%, 9%);
+    line-height: 2.5rem;
+    padding: 10px;
+}
+.part-1 p{
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+.part-1 button{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 13px;
+    width: 230px;
+    border:none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 5px 10px hsl(207, 28%, 90%);
+}
+.part-1 button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+/*section part-2*/
+.part-2 img{
+    width: 98%;
+    margin: 10px auto;
+    display: flex;
+}
+/*section part-3*/
+.part-3 .container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+.part-3 .left{
+    width: 90%;
+    margin-bottom: 100px; 
+}
+.part-3 img{
+    width: 30px;
+    position: relative;
+    left: -65px;
+}
+.part-3 h1{
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+.part-3 .right{
+    width: 90%;
+}
+.part-3 p{
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+    opacity: 0.8;
+}
+
+/*section part-4*/
+.part-4{
+    margin-top: 100px;
+}
+.part-4 .container{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding: 50px 0;
+}
+.part-4 .left{
+    padding: 18px;
+    text-align: center;
+    margin-top: 60px;
+}
+.part-4 h3{
+    font-size: 25px;
+    padding: 18px 0;
+}
+.part-4 img{
+    width: 70%;
+    display: flex;
+}
+
+/*background of section part-4*/
+.part-4 .bg-top-desk, .part-4 .bg-bottom-desk{
+    display: none;
+    width: 100%;
+}
+.part-4 .bg-top-mob, .part-4 .bg-bottom-mob{
+    display: block;
+    width: 100%;
+}
+
+/*section part-5*/
+.part-5{
+    margin-top: 100px;
+}
+.part-5 .container{
+    width: 100%;
+    padding: 50px 0;
+}
+.part-5 .right{
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+.part-5 h3{
+    font-size: 25px;
+    padding: 18px 0;
+}
+.part-5 img{
+    width: 70%;
+    display: flex;
+}
+
+/*section part-6*/
+.part-6{
+    margin-top: 100px;
+}
+.part-6 .container{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding: 50px 0;
+}
+.part-6 .left{
+    padding: 18px;
+    text-align: center;
+    margin-top: 60px;
+}
+.part-6 h3{
+    font-size: 25px;
+    padding: 18px 0;
+}
+.part-6 p{
+    padding: 0 20px;
+}
+.part-6 img{
+    width: 70%;
+    display: flex;
+}
+
+/*background of section part-6*/
+.part-6 .bg-top-desk, .part-6 .bg-bottom-desk{
+    display: none;
+    width: 100%;
+}
+.part-6 .bg-top-mob, .part-6 .bg-bottom-mob{
+    display: block;
+    width: 100%;
+}
+
+/*Section part-7*/
+.part-7{
+    margin:100px 20px;
+}
+.part-7 .container{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.part-7 h2{
+    margin-bottom: 30px;
+}
+.part-7 button{
+    padding: 12px;
+    width: 200px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 50px;
+    color: hsl(207, 100%, 98%);
+    box-shadow: 0 3px 10px hsl(207, 28%, 70%);
+    font-weight: 600;
+}
+.part-7 button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+footer>.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:hsl(207, 100%, 98%);
+    background-color: hsl(192, 100%, 9%);
+    padding: 30px 15px;
+    box-shadow: 0px -5px 0px hsl(192, 100%, 9%);
+}
+footer .left{
+    margin: 10px;
+}
+footer h2{
+    color: hsl(207, 100%, 98%);
+}
+footer h2>img{
+    width: 250px;
+}
+footer div>img{
+    width: 15px;
+    margin-right: 20px;
+}
+footer .container>p{
+    margin-bottom: 50px;
+}
+footer .container>div{
+    margin:25px 0;
+}
+footer .right{
+    margin-bottom: 100px;
+}
+footer p{
+    color:hsl(207, 100%, 98%);
+    margin: 30px 0;
+}
+footer h3{
+    color:hsl(207, 100%, 98%);
+    margin-left: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer form input{
+    padding: 15px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+footer input[type="email"]{
+    width: 100%;
+}
+footer input[type="submit"]{
+    margin-right: 0;
+    color: hsl(207, 100%, 98%);
+    background-color: hsl(322, 100%, 66%);
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer input[type="submit"]:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+footer input[type="email"]:hover{
+    border: 1px solid hsl(321, 100%, 78%)
+}
+footer input:focus{
+    outline: none;
+}
+footer .fab{
+    color:hsl(192, 100%, 9%);
+    background-color:hsl(207, 100%, 98%);
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 15px;
+}
+footer .fa-facebook-f{
+    padding: 3px 3px 3px 10px;
+    border-radius: 3px;
+    border-radius: 3px;
+}
+footer .fa-twitter{
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+    border-radius: 3px;
+}
+footer .fa-instagram{
+    background-color: transparent;
+    color:hsl(207, 100%, 98%);
+    font-weight: 400;
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+}
+footer .fab:hover{
+    background: #1DA1F2;
+    color: hsl(192, 100%, 9%);
+}
+footer .fa-instagram:hover{
+    color: hsl(0, 100%, 63%);
+    background-color: transparent;
+}
+
+/*background of footer*/
+footer .bg-top-desk{
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+footer .bg-top-mob{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.copyright{
+    background: hsl(192, 100%, 9%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -10px 0px hsl(192, 100%, 9%);
+    margin: 0;
+}
+.copyright a{
+    color: white;
+}
+.copyright a:hover{
+    color:hsl(321, 100%, 78%);
+}
+
+
+@media screen and (min-width: 375px) {
+    
+}
+
+@media screen and (min-width: 600px) {
+    /*header*/
+    header>.container{
+        justify-content: space-between;
+        margin: 80px 100px 120px 100px;
+    }
+    header img{
+        width: 200px;
+    }
+    header .left{
+        font-size: 45px;
+    }
+    header button{
+        padding: 10px 30px;
+    }
+
+    /*section part-1*/
+    .part-1 h2{
+        padding: 20px;
+        font-size: 45px;
+    }
+    .part-1 p{
+        text-align: center;
+        padding: 15px 0px;
+        width: 500px;
+    }
+    .part-1 button{
+        padding: 22px;
+        width: 320px;
+        margin: 40px auto;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+
+    /*section part-2*/
+    .part-2 img{
+        width: 72%;
+    }
+
+    /*section part-3*/
+    .part-3 .container{
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .part-3 img{
+        position: relative;
+        left: -90px;
+    }
+    .part-3 h1{
+        font-size: 80px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*section part-4*/
+    .part-4 .container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .part-4 .left{
+        width: 65%;
+        text-align: left;
+        padding: 80px 40px 80px 120px;
+    }
+    .part-4 h3{
+        font-size: 38px;
+        padding: 20px 0;
+    }
+    .part-4 img{
+        width: 65%;
+        display: flex;
+        position: relative;
+        left: -40px;
+    }
+    /*background of section part-4*/
+    .part-4 .bg-top-mob, .part-4 .bg-bottom-mob{
+        display: none;
+    }
+    .part-4 .bg-top-desk, .part-4 .bg-bottom-desk{
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    /*section part-5*/
+    .part-5 .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .part-5 .right{
+        width: 65%;
+        text-align: left;
+        padding: 80px 100px 80px 0;
+    }
+    .part-5 h3{
+        font-size: 38px;
+        padding: 20px 0;
+    }
+    .part-5 img{
+        width: 65%;
+        display: flex;
+        position: relative;
+        left: -40px;
+    }
+    
+    /*section part-6*/
+    .part-6 .container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .part-6 .left{
+        width: 68%;
+        text-align: left;
+        padding: 80px 40px 80px 120px;
+        margin-top: 0;
+    }
+    .part-6 h3{
+        font-size: 38px;
+        padding: 20px 0;
+    }
+    .part-6 p{
+        padding: 0px;
+    }
+    .part-6 img{
+        width: 65%;
+        display: flex;
+        position: relative;
+        left: -40px;
+    }
+    /*background of section part-6*/
+    .part-6 .bg-top-mob, .part-6 .bg-bottom-mob{
+        display: none;
+    }
+    .part-6 .bg-top-desk, .part-6 .bg-bottom-desk{
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    /*Section part-7*/
+    .part-7{
+        margin:200px auto;
+    }
+    .part-7 h2{
+        font-size: 36px;
+    }
+    .part-7 button{
+        padding: 25px;
+        width: 360px;
+        font-size: 18px;
+    }
+    footer>.container{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        color:hsl(207, 100%, 98%);
+        background-color: hsl(192, 100%, 9%);
+        padding: 30px 10px;
+        position: relative;
+        top: -1px;
+    }
+
+    footer .left{
+        width: 45%;
+        padding: 4%;
+    }
+    footer .right{
+        width: 55%;
+        padding: 40px 1% 0 10%;
+        font-size: 15px;
+    }
+    footer h3{
+        font-size: 23px;
+    }
+    footer p{
+        padding-right: 35%;
+    }
+    footer form{
+        width: 100%;
+    }
+    footer form input{
+        display: inline;
+        margin-right:7%;
+        padding: 15px 30px;
+        width: fit-content
+    }
+    footer input[type="email"]{
+        width: 64%;
+        min-width: 250px;
+    }
+    footer input[type="submit"]{
+        margin-right: 0;
+        color: hsl(207, 100%, 98%);
+        background-color: hsl(322, 100%, 66%);
+        width: 28%;
+        font-size: 16px;
+        font-weight: 600;
+        width: fit-content;
+    }
+
+    /*background of section part-6*/
+    footer .bg-top-mob{
+        display: none;
+    }
+    footer .bg-top-desk{
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+
+
+
+    img{
+        width: 100%;
+    }
+}
