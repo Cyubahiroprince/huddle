@@ -10,7 +10,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huddle-landing-page-starter-main</title>
+     <script>
+        function validation()
+        {
+           
+            var mymail=document.forms["myform"]["email"].value;
+            var at=mymail.indexOf("@");
+            var dot=mymail.indexOf(".")+1;
+            var leng=mymail.length;
+            var diff=leng-dot;
+            if(mymail=="")
+            {
+                document.getElementById("display").innerHTML=" you forgot to add your email please add.";;
+                var border=document.getElementsByClassName("input1")[0];
+                border.style.borderColor="red";
+                return false;
+            }
+            else if(at>3 && (diff==2 || diff==3))
+                {
+            document.getElementById("display").innerHTML="valided email";
+             return false;
+                }
+            else
+                {
+            document.getElementById("display").innerHTML="please provide a valid email address";
+              var border=document.getElementsByClassName("input1")[0];
+                border.style.borderColor="red";
+                return false;
+                }
+            
+            
+            
+        // alert(leng);
+                 
+           
+        }
+    </script>
+    <title>Huddle landing page</title>
 </head>
 <body>
     <div class="container">
@@ -127,9 +163,10 @@
                         sign up to our weekly newsletter. We'll never send 
                         you spam or pass on your email address
                         </p>
-                        <form action="">
-                            <input type="email">
-                            <input type="submit" value="Subscribe">
+                             <form action="" method="POST" name="myform" onsubmit="return validation();">
+                            <input class="input1" type="text" name="email" id="">
+                            <input class="input2" type="submit" value="Subscribe" name="notify me" required="">
+                            <p id="display"></p>
                         </form>
                     </div>
                 </div>
